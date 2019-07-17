@@ -139,8 +139,13 @@ nav ul li {
     height: 300px;
   }
 
+  .swiper-slide img {
+      width: 350px;
+      height: 400px;
+  }
+
   .swiper-pagination {
-      top: 61.2%;
+      top: 81%;
       position: absolute;
   }
 
@@ -181,7 +186,7 @@ nav ul li {
      display: block;
      width: 0;
      height: 2px;
-     background: black;
+     background: red;
      transition: width .3s;
  }
 
