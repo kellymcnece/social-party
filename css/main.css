@@ -21,19 +21,127 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  .swiper-container {
+    position: static;
+    text-align: center;
+     top: 200px;
+     width: 200px;
+     height: 300px;
+     padding: 20px;
+ }
+
+ .swiper-slide img {
+     width: 200px;
+     height: 300px;
+ }
+
+ .swiper-pagination {
+     position: static;
+     text-align: center;
+ }
+
+ .swiper-button-prev,
+ .swiper-button-next {
+     top: 290px;
+ }
+
+ h1 {
+     font-size: 3em;
+     color: red;
+     top: 70%;
+     left: 15%;
+     transform: rotate(5deg);
+     text-align: center;
+     position: absolute;
+ }
+
+ h2 {
+     font-family: 'mermaid';
+     font-weight: lighter;
+     text-align: center;
+     position: absolute;
+     letter-spacing: 2px;
+     top: 81.2%;
+     left: 25%;
+ }
+
+ nav {
+     width: 100%;
+     padding-top: 3%;
+ }
+
+ 
+nav ul li {
+    display: inline-block;
+    position: relative;
+    top: 20%;
+    left: 15%;
+    margin-right: 5%;
+}
+
+.nav .overlay ul li a {
+   display: block;
+   font-size: 1.3em;
+   transition: all 650ms;
+}
+ a {
+     text-decoration: none;
+     color: red;
+ }
+
+ span {
+     color: black;
+ }
+
+ .cool-hover::after {
+     content: " ";
+     display: block;
+     width: 0;
+     height: 2px;
+     background: black;
+     transition: width .3s;
+ }
+
+ .cool-hover:hover::after {
+     width: 100%;
+     box-shadow: grey;
+     transition: width .3s;
+ }
+  
+  
+
+  /*Media queries*/
+  @media screen and (min-width: 769px) { 
+   
+    /* STYLES GO HERE */
+    body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
   
   .swiper-container {
-      left: 10%;
-      top: 60%;
+      position: absolute;
+      left: 40%;
+      top: 30%;
       width: 500px;
       height: 500px;
-      padding: 50px;
+      padding: 10px;
   }
   .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 300px;
+  }
+
+  .swiper-pagination {
+      top: 61.2%;
+      position: absolute;
   }
 
   a {
@@ -53,6 +161,7 @@ body {
       padding-top: 3%;
   }
 
+  
  nav ul li {
      display: inline-block;
      position: relative;
@@ -61,12 +170,18 @@ body {
      margin-right: 15%;
  }
 
+ .nav .overlay ul li a {
+    display: block;
+    font-size: 2rem;
+    transition: all 650ms;
+}
+
  .cool-hover::after {
      content: " ";
      display: block;
      width: 0;
      height: 2px;
-     background: red;
+     background: black;
      transition: width .3s;
  }
 
@@ -85,8 +200,8 @@ body {
       text-align: left;
       position: absolute;
       top: 40%;
-      left: 3%;
-      transform: translateX(-60%);
+      left: .1%;
+      /*transform: translateX(-60%);*/
       transform: rotate(70deg);
   }
 
@@ -101,51 +216,4 @@ body {
       top: 90%;
       left: 7%;
       letter-spacing: 2px;
-  }
-
-   h1 {
-    opacity: 0;
-    animation: .5s fadeUp .5s forwards;
-}
-
-   h2 {
-    opacity: 0;
-    animation: fadeIn .7s forwards;
-}
-
-h1, h2 {
-    opacity: 0;
-    animation: .5s fade 1s forwards;
-}
-
-@keyframes fadeIn {
-    0%{
-        transform: scale(2);
-        opacity: 0;
-    }
-    100%{
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
-@keyframes fadeUp {
-    0%{
-        transform: translateY(4rem);
-        opacity: 0;
-    }
-    100%{
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-@keyframes fade {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-  
+  }}

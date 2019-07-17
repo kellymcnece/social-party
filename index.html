@@ -8,19 +8,25 @@
     <title>Social Party</title>
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <nav>
+    <div id="container">
+    <nav class="nav">
+        <div class="overlay">
         <ul>
-           <li><a href="#" class="cool-hover">+ about</a></li>
-           <li><a href="#" class="cool-hover">+ gallery</a></li>
-           <li><a href="#" class="cool-hover">+ contact</a></li>
+           <li><a href="#" class="cool-hover"><span>+</span> about</a></li>
+           <li><a href="#" class="cool-hover"><span>+</span> gallery</a></li>
+           <li><a href="#" class="cool-hover"><span>+</span> contact</a></li>
         </ul>
+    </div>
     </nav>
- <h1>SOCIAL PARTY</h1>
- <h2>VISUAL STUDIO</h2>
+    <div class="brand-animation">
+        <h1>SOCIAL PARTY</h1>
+        <h2>VISUAL STUDIO</h2>
+    </div>
 
- <div class="swiper-container">
+ <div class="swiper-container" data-aos="fade-up" data-aos-delay="600">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
               <img src="img/pic1.jpg" alt="">
@@ -49,9 +55,15 @@
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   </div>
+</div>
 
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script type="text/javascript" src="swiper.min.js"></script>
+      <script type="text/javascript" src="main.js"></script>
       <script>
+
             var swiper = new Swiper('.swiper-container', {
               effect: 'coverflow',
               grabCursor: true,
