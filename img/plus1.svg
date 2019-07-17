@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1042.449" height="51.109" viewBox="0 0 1042.449 51.109">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1042.449" height="51.109" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="plus1" clip-path="url(#clip-path)">
+    <g id="plus1-2" data-name="plus1" transform="translate(-740.5 -254.5)">
+      <line id="Line_1" data-name="Line 1" y2="46.109" transform="translate(759.791 254.5)" fill="none" stroke="#000" stroke-width="4"/>
+      <line id="Line_2" data-name="Line 2" x2="40.449" transform="translate(740.5 277.862)" fill="none" stroke="#000" stroke-width="4"/>
+    </g>
+    <g id="plus1-3" data-name="plus1" transform="translate(-248.5 -254.5)">
+      <line id="Line_1-2" data-name="Line 1" y2="46.109" transform="translate(759.791 254.5)" fill="none" stroke="#000" stroke-width="4"/>
+      <line id="Line_2-2" data-name="Line 2" x2="40.449" transform="translate(740.5 277.862)" fill="none" stroke="#000" stroke-width="4"/>
+    </g>
+    <g id="plus1-4" data-name="plus1" transform="translate(243.5 -254.5)">
+      <line id="Line_1-3" data-name="Line 1" y2="46.109" transform="translate(759.791 254.5)" fill="none" stroke="#000" stroke-width="4"/>
+      <line id="Line_2-3" data-name="Line 2" x2="40.449" transform="translate(740.5 277.862)" fill="none" stroke="#000" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
